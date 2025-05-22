@@ -5,7 +5,7 @@ Munkipkg example files to allow easy creation of single rapid7 pkg style install
 Munkipkg can be obtained Here: https://github.com/munki/munki-pkg/tree/main
 
 ### UPDATE!
-**UNTESTED, Updated per a request on the MacAdmins Slack, Please test before deployment**
+**UNTESTED, Updated per a request on the MacAdmins Slack, Please test before deployment**  
 Rapid7 has switched to supplying a pkg installer but it still requires a postinstall script to activate.  
 Therefore it still makes sense to package everything together and run the respective installer and postinstall per architecture.
 If you only have one architecture ion your fleet you can omit the pkg for the unused arch, Ex: Intel.
